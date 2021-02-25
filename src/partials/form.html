@@ -1,0 +1,44 @@
+<!-- Start Feedbak Form -->
+<section class="feedbak">
+  <div class="container">
+    <h2 class="feedbak__title">
+      Обратная форма
+    </h2>
+    <form class="feedbak__form" id="feedbakForm" action="#" method="POST">
+      <div class="feedbak__row">
+        <div class="feedbak__col">
+          <input type="text" id="fullname" required>
+          <label class="feedbak__label required" for="fullname">
+            <span>ФИО</span>
+          </label>
+        </div>
+        <div class="feedbak__col">
+          <input class="feedbak__phone required" type="text" id="phone" required>
+          <label class="feedbak__label" for="phone">
+            <span>Телефон</span>
+          </label>
+        </div>
+      </div>
+      <div class="feedbak__row">
+        <div class="feedbak__col">
+          <input type="email" id="email">
+          <label class="feedbak__label" for="email">
+            <span>E-mail</span>
+          </label>
+        </div>
+      </div>
+      <div class="feedbak__row">
+        <div class="feedbak__col">
+          <textarea id="message"></textarea>
+          <label class="feedbak__label" for="message">
+            <span>Сообщение</span>
+          </label>
+        </div>
+      </div>
+      <p class="feedbak__info">
+        Отправляя форму, Вы соглашаетесь на <span>обработку персональных данных</span>
+      </p>
+      <button class="feedbak__button" type="submit">Отправить</button>
+    </form>
+  </div>
+</section>

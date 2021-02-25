@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+  
+    <div class="site-container">
+
+      <div class="content">
+
+        <!-- Start Header -->
+        <header class="header">
+          <div class="container">
+            
+          </div>
+        </header>
+
+
+  <!-- Start Feedbak Form -->
+<section class="feedbak">
+  <div class="container">
+    <h2 class="feedbak__title">
+      Обратная форма
+    </h2>
+    <form class="feedbak__form" id="feedbakForm" action="#" method="POST">
+      <div class="feedbak__row">
+        <div class="feedbak__col">
+          <input type="text" id="fullname" required>
+          <label class="feedbak__label required" for="fullname">
+            <span>ФИО</span>
+          </label>
+        </div>
+        <div class="feedbak__col">
+          <input class="feedbak__phone required" type="text" id="phone" required>
+          <label class="feedbak__label" for="phone">
+            <span>Телефон</span>
+          </label>
+        </div>
+      </div>
+      <div class="feedbak__row">
+        <div class="feedbak__col">
+          <input type="email" id="email">
+          <label class="feedbak__label" for="email">
+            <span>E-mail</span>
+          </label>
+        </div>
+      </div>
+      <div class="feedbak__row">
+        <div class="feedbak__col">
+          <textarea id="message"></textarea>
+          <label class="feedbak__label" for="message">
+            <span>Сообщение</span>
+          </label>
+        </div>
+      </div>
+      <p class="feedbak__info">
+        Отправляя форму, Вы соглашаетесь на <span>обработку персональных данных</span>
+      </p>
+      <button class="feedbak__button" type="submit">Отправить</button>
+    </form>
+  </div>
+</section>
+
+
+  </div>
+
+
+<!-- Start Footer -->
+<footer class="footer">
+  <div class="container">
+
+  </div>
+</footer>
+
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
